@@ -1,9 +1,9 @@
 import React from "react";
-
+import "../index.css";
 function MyInfo() {
   return (
     <React.Fragment>
-      <h1>Mbote-Joseph</h1>
+      {/* <h1>Mbote-Joseph</h1> */}
       <p>React is a JavaScript Library created by Facebook</p>
       <p>I'm a Computer Science Student</p>
       <br />

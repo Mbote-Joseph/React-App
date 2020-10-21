@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ToDo from "./components/ToDO";
 import Quiz from "./components/Quiz";
+import DateComponent from "./components/Date";
+import Login from "./components/Login";
+
 function App() {
   return (
     <div>
@@ -11,6 +14,7 @@ function App() {
       <br />
       <br />
       <br />
+      <DateComponent />
       <MyInfo />
       <br />
       <br />
@@ -23,6 +27,9 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <Login />
+
       <Footer />
     </div>
   );

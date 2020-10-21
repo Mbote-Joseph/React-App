@@ -18,6 +18,8 @@ function QuizContent(props) {
         <input type="checkbox" name="react" />
         <label>{props.answer5} </label>
       </div>
+
+      <br />
     </React.Fragment>
   );
 }

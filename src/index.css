@@ -7,6 +7,10 @@
   color: #f7f7f7f7;
 }
 .list {
+  margin: 5%;
+  color: #111;
+  background: #f7f7f7f7;
+  border-radius: 20px;
   font-size: 30px;
 }
 
@@ -20,7 +24,7 @@ ul {
 
 li {
   float: right;
-  margin: 3px;
+  margin: 0px;
   font-size: 30px;
 }
 
@@ -34,7 +38,7 @@ li {
 
 /* Change the link color to #111 (black) on hover */
 li:hover {
-  background-color: #111;
+  background-color: darkslategrey;
 }
 .Quiz {
   background-color: blue;
