@@ -6,6 +6,9 @@ import ToDo from "./components/ToDO";
 import Quiz from "./components/Quiz";
 import DateComponent from "./components/Date";
 import Login from "./components/Login";
+import PureComp from "./components/PureComp";
+import MemoComp from "./components/MemoComp";
+import PortalDemo from "./components/PortalDemo";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
       <br />
       <br />
       <Login />
+      <PureComp />
+      <MemoComp />
+      <PortalDemo />
 
       <Footer />
     </div>
